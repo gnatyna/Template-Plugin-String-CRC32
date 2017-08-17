@@ -2,5 +2,7 @@ Revision history for Perl extension Template-Plugin-String-CRC32
 
 {{$NEXT}}
 
-    - original version
+0.01 2017-08-17T14:18:36Z
+
+    - Plugin+tests
 

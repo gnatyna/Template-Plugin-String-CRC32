@@ -1,5 +1,5 @@
 {
-   "abstract" : "It's new $module",
+   "abstract" : "L<Template::Toolkit> plugin-wrapper of L<String::CRC32>",
    "author" : [
       "Alexander A. Gnatyna <gnatyna@ya.ru>"
    ],
@@ -42,16 +42,34 @@
       },
       "runtime" : {
          "requires" : {
+            "String::CRC32" : "0",
+            "Template::Plugin" : "0",
+            "Template::Stash" : "0",
             "perl" : "5.008001"
          }
       },
       "test" : {
          "requires" : {
+            "Template::Test" : "0",
             "Test::More" : "0.98"
          }
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/gnatyna/Template-Plugin-String-CRC32/issues"
+      },
+      "homepage" : "https://github.com/gnatyna/Template-Plugin-String-CRC32",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/gnatyna/Template-Plugin-String-CRC32.git",
+         "web" : "https://github.com/gnatyna/Template-Plugin-String-CRC32"
+      }
+   },
    "version" : "0.01",
+   "x_contributors" : [
+      "Alexander A. Gnatyna <a.gnatyna@gazeta.ru>"
+   ],
    "x_serialization_backend" : "JSON::PP version 2.27400"
 }

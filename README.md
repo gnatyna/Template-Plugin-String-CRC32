@@ -1,14 +1,16 @@
 # NAME
 
-Template::Plugin::String::CRC32 - It's new $module
+Template::Plugin::String::CRC32 - [Template::Toolkit](https://metacpan.org/pod/Template::Toolkit) plugin-wrapper of [String::CRC32](https://metacpan.org/pod/String::CRC32)
 
 # SYNOPSIS
 
-    use Template::Plugin::String::CRC32;
+\[% USE String::CRC32 -%\]
+\[% 'test\_string' | crc32 %\]
+\[% text = 'test\_string'; text.crc32 %\]
 
 # DESCRIPTION
 
-Template::Plugin::String::CRC32 is ...
+Template::Plugin::String::CRC32 is wrapper of [String::CRC32](https://metacpan.org/pod/String::CRC32) for [Template::Toolkit](https://metacpan.org/pod/Template::Toolkit)
 
 # LICENSE
 
